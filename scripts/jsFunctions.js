@@ -13,6 +13,8 @@ $(function() {
 		mode: 'remote',
 		maxSelection: 4,
 		maxEntryLength: 25,
+		typeDelay: 0,
+		expanded: true,
 		maxEntryRenderer: function(v) {
 			return 'Must be below 25 characters';
 		},
